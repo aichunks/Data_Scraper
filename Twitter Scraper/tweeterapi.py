@@ -205,6 +205,7 @@ if __name__ == '__main__':
     v.set(1)
     tk.Radiobutton(root, text="YES", variable=v, value=0).grid(row=1,column=1)
     tk.Radiobutton(root, text="NO", variable=v, value=1).grid(row=1,column=2)
+    tk.Label(root, text="Do you want to download Media?:").grid(row=1)
     vv = ttk.Progressbar(root, orient="horizontal",
                                         length=300, mode="indeterminate")
     vv.grid(row=7, column=1)
