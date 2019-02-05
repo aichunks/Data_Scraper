@@ -50,3 +50,7 @@ PIP INSTALL WGET
 PIP INSTALL TEXTBLOB
 PIP INSTALL CSV 
 ```
+
+## Deployment
+
+**Clone the Repo and then Just install the Prerequisites and you are good to go**
