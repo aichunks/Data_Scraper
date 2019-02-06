@@ -15,37 +15,42 @@ Thus, the key element that distinguishes data scraping from regular parsing is t
 
 ## Getting Started
 
-Information or Data is need of the hour. We Need data for prediction and analysis. Here we have implemented streaming twitter scrapper which will keep on fetching data and media from twitter. You need to enter your keywords you want to scrap tweets about. Also you will need to genrate keys for the twiiter api **IT CAN BE DONE FROM THIS LINK** https://developer.twitter.com/apps .The field which will get extracted here are as follow.
+Information or Data is need of the hour. We Need data for prediction and analysis. Here we have implemented youtube scrapper which will keep on fetching metadata and media from youtube. You need to enter your keywords you want to scrap data about. Also you will need to genrate keys for the youtube api **IT CAN BE DONE FROM THIS LINK** https://developers.google.com/youtube/registering_an_application .The field which will get extracted here are as follow.
 
 ```
-tweet text
-tweet coordinates
-tweet geo
-tweet username
-tweet user created_at(userid)
-tweet user followers_count
-tweet user friends_count
-tweet user favourites_count
-tweet id
-tweet status created_at
-tweet urls
-tweet media
-tweet retweets
-tweet hashtags
-tweet sentiments
+Video Title
+Video Duration
+Video Rating
+Video Author
+Video Id
+Video Thumb
+Video Viewcount
+Video likes
+Video dislikes
+video published
+video keywords
+video description
+video category
+video username
+video download(optional)
+
 ```
 
 ## Prerequisites
 
 PYTHON
-tweepy
+paffy
 textblob
 tkinter
+youtube_dl
 wget
+google-api-python-client
 csv
 ```
-PIP INSTALL TWEEPY
+PIP INSTALL paffy
+PIP INSTALL youtube_dl
 PIP INSTALL TKINTER
+pip install google-api-python-client
 PIP INSTALL WGET
 PIP INSTALL TEXTBLOB
 PIP INSTALL CSV 
