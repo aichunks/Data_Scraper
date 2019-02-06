@@ -43,7 +43,6 @@ paffy
 textblob
 tkinter
 youtube_dl
-wget
 google-api-python-client
 csv
 ```
@@ -51,7 +50,6 @@ PIP INSTALL paffy
 PIP INSTALL youtube_dl
 PIP INSTALL TKINTER
 pip install google-api-python-client
-PIP INSTALL WGET
 PIP INSTALL TEXTBLOB
 PIP INSTALL CSV 
 ```
